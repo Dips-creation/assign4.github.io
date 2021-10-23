@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        #container{
+            /* border:3px solid red; */
+            background-image: url(pexels-eberhard-grossgasteiger-1699020.jpg);
+            width:1500px;
+            height:500px;
+            background-size:1500px 700px;
+            background-repeat: no-repeat;
+            position: absolute;
+            padding:50px 100px 700px 300px;
+            
+        }
+        
+        #login{
+            /* border:3px solid green; */
+            color: white;
+            font-size: 20px;
+            width: 350px;
+            box-shadow:0 0  10px white;
+            }
+    </style>
+</head>
+<body >
+    <div id="container">
+        
+            <div id="login">
+                <h3>Login</h3>
+                <form>
+                    <table >
+                        <tr>
+                            <td><label>User Name</label></td>
+                            <td><input type="text" placeholder="Enter The Username" required/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Password</label></td>
+                            <td><input type="password" placeholder="Password" required minlength="6"/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="Reset"/>&nbsp<button>Login</button></td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+        
+    </div>
+</body>
+</html>

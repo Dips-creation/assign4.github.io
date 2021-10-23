@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        #container{
+            /* border:3px solid red; */
+            background-image: url(pexels-eberhard-grossgasteiger-1699020.jpg);
+            width:1150px;
+            height:500px;
+            background-size:1500px 700px;
+            background-repeat: no-repeat;
+            position: absolute;
+            padding:50px 100px 700px 300px;
+            
+        }
+        #login{
+            /* border:3px solid green; */
+            color: white;
+            font-size: 20px;
+            width: 500px;
+            box-shadow:0 0  10px white;
+            }
+        h3{
+            text-align: center;
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="login">
+            <form>
+                <h3 > Yummy Food</h3>
+                <table >
+                    <tr>
+                        <td><label> Name </label></td>
+                        <td><input type="text" placeholder="Name" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone Number</label></td>
+                        <td><input type="text" placeholder="Email" required minlength="10"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select The Food</label></td>
+                        <td><select><option>Panipuri</option>
+                            <option>Kachori</option>
+                            <option>Pizza</option>
+                            <option>Samosa</option>
+                            <option>Panner Chilli</option>
+                            <option>Ragada</option></select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Select Gender</label></td>
+                        <td><input type="radio" name="gender" />Male<input type="radio" name="gender" />Female</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Quality</label></td>
+                        <td><input type="radio" name="Quality" />Excellent<input type="radio" name="Quality" />Good<input type="radio" name="Quality" />Poor</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Service</label></td>
+                        <td><input type="radio" name="Service " />Excellent<input type="radio" name="Service" />Good<input type="radio" name="Service" />Poor</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Cleanliness</label></td>
+                        <td><input type="radio" name="Cleanliness" />Excellent<input type="radio" name="Cleanliness" />Good<input type="radio" name="Cleanliness" />Poor</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Dinning Enviroment</label></td>
+                        <td><input type="radio" name="Dinning" />Excellent<input type="radio" name="Dinning" />Good<input type="radio" name="Dinning" />Poor</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Any Suggestion</label></td>
+                        <td><textarea rows="5" cols="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="Reset"/>&nbsp<button>Login</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
